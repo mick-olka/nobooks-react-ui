@@ -1,8 +1,8 @@
 import { FC } from "react";
-import { Menu } from "../../model/types";
+import { Menu as MenuType } from "../../model/types";
 import { Link } from "react-router-dom";
 
-const Menu: FC<Menu> = ({ links }: Menu) => {
+const Menu: FC<MenuType> = ({ links }: MenuType) => {
   return (
     <>
       <div className="navbar-start">

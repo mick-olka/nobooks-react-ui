@@ -1,5 +1,6 @@
 export type Logo = {
   logoName: string;
+  redirectTo?: string;
 };
 
 export type Menu = {

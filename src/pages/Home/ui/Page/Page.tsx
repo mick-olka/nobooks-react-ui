@@ -1,25 +1,42 @@
 import { FC } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Home: FC = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section>
         <div className="hero min-h-[calc(100vh-64px)] bg-base-200">
           <div className="hero-content flex-col lg:flex-row">
             <img
-              src="/images/hero.webp"
-              className="max-w-sm rounded-lg shadow-2xl"
+              src="/images/bg1.png"
+              className="max-w-sm rounded-lg shadow-2xl w-full"
             />
-            <div>
-              <h1 className="text-5xl font-bold">Welcome</h1>
-              <p className="py-5">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
-                minima laboriosam maxime sed dignissimos harum provident itaque
-                fugiat. A repellat aliquid inventore dolor tempora, omnis
-                perferendis aspernatur quo nisi excepturi. Ex, ullam odio iusto
-                esse necessitatibus doloremque repudiandae!
+            <div className="flex flex-col items-center sm:items-start">
+              <h1 className="text-3xl font-bold sm:text-5xl">
+                Вітаємо на сервері no boobs
+              </h1>
+              <p className="py-1">
+                Щось тут буде написано про сервер, його правила, і туда сюда
+                хуйо мойо
               </p>
-              <button className="btn-primary btn">Get Started</button>
+              <div className="p-2 my-2 rounded-lg bg-gray-800 w-full">
+                &nbsp;Поточний онлайн:
+                <span
+                  className="px-1 font-bold"
+                  data-playercounter-ip="mc.noboobies.pp.ua"
+                >
+                  0
+                </span>
+                <br />
+                <span className="pl-1 font-bold">mc.noboobies.pp.ua</span>
+              </div>
+              <button
+                className="btn-primary btn max-w-48"
+                onClick={() => navigate("/start")}
+              >
+                Почати грати
+              </button>
             </div>
           </div>
         </div>
