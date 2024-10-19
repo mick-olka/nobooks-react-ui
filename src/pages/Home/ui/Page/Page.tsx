@@ -16,11 +16,11 @@ const Home: FC = () => {
               <h1 className="text-3xl font-bold sm:text-5xl">
                 Вітаємо на сервері no boobs
               </h1>
-              <p className="py-1">
-                Щось тут буде написано про сервер, його правила, і туда сюда
-                хуйо мойо
+              <p className="py-1 mx-auto">
+                Український ванільний Майнкрафт сервер для Java та Bedrock
+                гравців
               </p>
-              <div className="p-2 my-2 rounded-lg bg-gray-800 w-full">
+              <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto">
                 &nbsp;Поточний онлайн:
                 <span
                   className="px-1 font-bold"
@@ -29,10 +29,13 @@ const Home: FC = () => {
                   0
                 </span>
                 <br />
-                <span className="pl-1 font-bold">mc.noboobies.pp.ua</span>
+                <span className="pl-1 font-bold">
+                  {/* mc.noboobies.pp.ua */}
+                  Ведуться технічні роботи
+                </span>
               </div>
               <button
-                className="btn-primary btn max-w-48"
+                className="btn-primary btn max-w-48 mx-auto"
                 onClick={() => navigate("/start")}
               >
                 Почати грати
