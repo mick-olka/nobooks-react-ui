@@ -1,5 +1,13 @@
 import { LayoutFooter } from "./LayoutFooter";
 import { LayoutHeader, Logo, Menu } from "./LayoutHeader";
-import { FixedAnnouncement } from "./Elements";
+import { FixedAnnouncement, DefaultLoader, SuspenseImage } from "./Elements";
 
-export { LayoutHeader, Logo, Menu, LayoutFooter, FixedAnnouncement };
+export {
+  LayoutHeader,
+  Logo,
+  Menu,
+  LayoutFooter,
+  FixedAnnouncement,
+  DefaultLoader,
+  SuspenseImage,
+};

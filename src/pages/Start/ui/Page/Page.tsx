@@ -1,8 +1,9 @@
 import { FC } from "react";
+import { PageTransitionWrapper } from "@/app/Layout";
 
 const StartPlayingPage: FC = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <PageTransitionWrapper className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-12">no boobs 4 - Початок гри</h1>
       <div className="mb-8">
         <details className="cursor-pointer group">
@@ -98,7 +99,7 @@ const StartPlayingPage: FC = () => {
           </div>
         </details>
       </div>
-    </section>
+    </PageTransitionWrapper>
   );
 };
 
