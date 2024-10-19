@@ -5,16 +5,19 @@ FROM node:18 AS build
 WORKDIR /app
 
 # Copy package.json and package-lock.json (if available)
-COPY package.json package-lock.json ./
+COPY package.json pnpm-lock.yaml ./
 
-# Install dependencies
-RUN npm install
+# Install pnpm globally
+RUN npm install -g pnpm
+
+# Install dependencies using pnpm
+RUN pnpm install
 
 # Copy the rest of the application code
 COPY . .
 
 # Build the application
-RUN npm run build
+RUN pnpm run build
 
 # Use a lightweight web server for serving the built application
 FROM nginx:alpine
