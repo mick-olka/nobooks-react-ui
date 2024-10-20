@@ -1,9 +1,10 @@
 import { FC } from "react";
 import { featuresData } from "../../data";
+import { PageTransitionWrapper } from "@/widgets";
 
 const FeaturesPage: FC = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <PageTransitionWrapper className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-12">
         no boobs 4 - Можливості серверу
       </h1>
@@ -36,7 +37,7 @@ const FeaturesPage: FC = () => {
           </details>
         </div>
       ))}
-    </section>
+    </PageTransitionWrapper>
   );
 };
 

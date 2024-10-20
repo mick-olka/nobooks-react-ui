@@ -22,13 +22,13 @@ const LayoutFooter: FC = () => {
             froggyfroggs
           </a>
         </div>
-        <div>
+        {/* <div>
           <span className="footer-title">Про нас</span>
           <a className="link-hover link">Український</a>
           <a className="link-hover link">Майнкрафт</a>
           <a className="link-hover link">Сервер</a>
           <a className="link-hover link">no boobs</a>
-        </div>
+        </div> */}
         <div>
           <span className="footer-title">Соцмережі</span>
           <div className="grid grid-flow-col gap-4">

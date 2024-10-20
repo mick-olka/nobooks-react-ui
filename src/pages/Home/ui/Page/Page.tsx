@@ -1,5 +1,4 @@
-import { PageTransitionWrapper } from "@/app/Layout";
-import { DefaultLoader, SuspenseImage } from "@/widgets";
+import { PageTransitionWrapper, DefaultLoader, SuspenseImage } from "@/widgets";
 import { FC, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
 

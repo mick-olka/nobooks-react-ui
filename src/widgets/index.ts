@@ -1,6 +1,11 @@
 import { LayoutFooter } from "./LayoutFooter";
 import { LayoutHeader, Logo, Menu } from "./LayoutHeader";
-import { FixedAnnouncement, DefaultLoader, SuspenseImage } from "./Elements";
+import {
+  FixedAnnouncement,
+  DefaultLoader,
+  SuspenseImage,
+  PageTransitionWrapper,
+} from "./Elements";
 
 export {
   LayoutHeader,
@@ -10,4 +15,5 @@ export {
   FixedAnnouncement,
   DefaultLoader,
   SuspenseImage,
+  PageTransitionWrapper,
 };

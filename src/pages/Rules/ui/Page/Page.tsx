@@ -1,9 +1,10 @@
 import { FC } from "react";
 import { rulesData } from "../../data";
+import { PageTransitionWrapper } from "@/widgets";
 
 const RulesPage: FC = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <PageTransitionWrapper className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6">Правила та положення</h1>
       {rulesData.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mb-8">
@@ -15,7 +16,7 @@ const RulesPage: FC = () => {
           </ul>
         </div>
       ))}
-    </section>
+    </PageTransitionWrapper>
   );
 };
 
