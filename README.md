@@ -39,7 +39,7 @@ cd my-project
 5. Install the dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ npm install
 To start the development server and run the project, use the following command:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 This will start the development server and open your project in the browser. Any changes you make to the source code will be automatically reflected in the browser.
@@ -57,7 +57,7 @@ This will start the development server and open your project in the browser. Any
 To build the project for production, use the following command:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 This will create an optimized build of your project in the dist directory.

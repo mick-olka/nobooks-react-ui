@@ -17,7 +17,7 @@ const Home: FC = () => {
               />
               <div className="flex flex-col items-center sm:items-start">
                 <h1 className="text-3xl font-bold sm:text-5xl">
-                  Вітаємо на сервері no boobs
+                  Вітаємо на&nbsp;сервері no&nbsp;boobs
                 </h1>
                 <p className="py-1 mx-auto">
                   Український ванільний Майнкрафт сервер для Java та Bedrock
