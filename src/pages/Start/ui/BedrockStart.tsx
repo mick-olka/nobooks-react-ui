@@ -10,7 +10,8 @@ export const BedrockStart = () => {
         <div className="mt-2 pl-4 overflow-hidden transition-all duration-300">
           <p>
             Айпі для бедроку: <br />
-            <u>bedrock.noboobies.pp.ua:19132</u>
+            {/* <u>bedrock.noboobies.pp.ua:19132</u> */}
+            <u>у розробці</u>
           </p>
           <p>(19132 - порт серверу)</p>
           <p>Проходка безплатна!</p>

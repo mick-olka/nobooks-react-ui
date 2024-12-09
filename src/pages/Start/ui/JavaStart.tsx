@@ -9,7 +9,7 @@ export const JavaStart = () => {
         </div>
         <div className="mt-2 pl-4 overflow-hidden transition-all duration-300">
           <p>
-            Айпі для джави: <br /> <u>mc.noboobies.pp.ua</u>
+            Айпі для джави: <br /> <u>y розробці</u>
           </p>
           <p>Якщо айпі не працює - спробуйте айпі бедроку</p>
           <p>Проходка безплатна!</p>
