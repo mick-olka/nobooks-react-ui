@@ -29,10 +29,6 @@ export const featuresData = [
   },
 ];
 
-const isMobile = () => window.innerWidth <= 768;
-
-const getVideoWidth = () => (isMobile() ? "100%" : "540px");
-
 export const featuresData2 = [
   {
     title: "Вічна зима",
