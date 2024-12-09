@@ -29,6 +29,10 @@ export const featuresData = [
   },
 ];
 
+const isMobile = () => window.innerWidth <= 768;
+
+const getVideoWidth = () => (isMobile() ? "100%" : "540px");
+
 export const featuresData2 = [
   {
     title: "Вічна зима",
@@ -67,7 +71,7 @@ export const featuresData2 = [
 Кинеш прирученому ведмідю лосося - він відновить здоровʼя.<br/><br/>\
 Присядеш рядом біля нього - залишиться сидіти на місці, сядеш чуть далі - буде слідувати за тобою. Не працює? Кинь у нього сніжком!<br/><br/>\
 Можливо Ви безсердечні і захочете вбити боса… Чим менше хп він має, тим він більш сильніший! При його смерті він дає вам нові черевики - полярні.<br/><br/>\
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j_VeuswFKyA?si=xM4NkmNdBYct1Y09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+<div style="max-width: 540px; margin: 0 auto;"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/j_VeuswFKyA?si=xM4NkmNdBYct1Y09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
   },
   {
     title: "Дід Мороз",
@@ -77,7 +81,7 @@ export const featuresData2 = [
     title: "Крафтові подарунки",
     text: 'Киньте 6 паперу і 1 сундук на землю щоб скрафтити 4 подарункові обгортки.<br/><br/>\
 Киньте любі речі на землю де хочете щоб був ваш подарунок і нажміть пкм подарунковою обгорткою по ним, щоб створити подарунок!<br/><br/>\
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DVzqb0qLwMg?si=iN3rJfgQzHoIeCDb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+<div style="max-width: 540px; margin: 0 auto;"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/DVzqb0qLwMg?si=iN3rJfgQzHoIeCDb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
   },
   {
     title: "Глибокі моби",
