@@ -11,7 +11,7 @@ const FeaturesPage: FC = () => {
       {featuresData2.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mb-8">
           <details className="cursor-pointer group">
-            <summary className="text-2xl font-semibold mb-4 list-none">
+            <summary className="text-2xl font-semibold mb-4 list-none appearance-none">
               <span className="flex items-center">
                 <svg
                   className="w-6 h-6 mr-2 transition-transform duration-300 group-open:rotate-90"
