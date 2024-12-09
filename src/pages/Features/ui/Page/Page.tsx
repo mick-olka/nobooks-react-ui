@@ -1,14 +1,14 @@
 import { FC } from "react";
-import { featuresData } from "../../data";
+import { featuresData2 } from "../../data";
 import { PageTransitionWrapper } from "@/widgets";
 
 const FeaturesPage: FC = () => {
   return (
     <PageTransitionWrapper className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-12">
-        no boobs 4 - Можливості серверу
+        no boobs Зимовий - Особливості серверу
       </h1>
-      {featuresData.map((section, sectionIndex) => (
+      {featuresData2.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mb-8">
           <details className="cursor-pointer group">
             <summary className="text-2xl font-semibold mb-4 list-none">

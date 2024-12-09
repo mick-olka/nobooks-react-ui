@@ -10,7 +10,7 @@ const Layout: FC = () => {
   return (
     <div className="h-screen overflow-x-hidden">
       <LayoutHeader />
-      <main className="min-h-full">
+      <main className="min-h-full bg-base-200">
         <ChristmasLights />
         <Outlet />
       </main>

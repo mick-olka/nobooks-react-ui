@@ -34,7 +34,7 @@ const Home: FC = () => {
                   <br />
                   <span className="pl-1 font-bold">
                     {/* mc.noboobies.pp.ua */}
-                    Ведуться технічні роботи
+                    IP: скоро буде
                   </span>
                 </div>
                 <button
