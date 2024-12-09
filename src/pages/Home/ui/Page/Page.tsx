@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const Home: FC = () => {
   const navigate = useNavigate();
+  const onStartClick = () => {
+    navigate("/start");
+  };
   return (
     <>
       <Suspense fallback={<DefaultLoader />}>
@@ -39,7 +42,7 @@ const Home: FC = () => {
                 </div>
                 <button
                   className="btn-primary btn max-w-48 mx-auto"
-                  onClick={() => navigate("/start")}
+                  onClick={onStartClick}
                 >
                   Почати грати
                 </button>
