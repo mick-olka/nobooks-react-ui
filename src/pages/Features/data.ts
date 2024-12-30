@@ -67,7 +67,10 @@ export const featuresData2 = [
 Кинеш прирученому ведмідю лосося - він відновить здоровʼя.<br/><br/>\
 Присядеш рядом біля нього - залишиться сидіти на місці, сядеш чуть далі - буде слідувати за тобою. Не працює? Кинь у нього сніжком!<br/><br/>\
 Можливо Ви безсердечні і захочете вбити боса… Чим менше хп він має, тим він більш сильніший! При його смерті він дає вам нові черевики - полярні.<br/><br/>\
-<div style="max-width: 540px; margin: 0 auto;"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/j_VeuswFKyA?si=xM4NkmNdBYct1Y09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
+<div style="max-width: 540px; margin: 0 auto;"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/j_VeuswFKyA?si=xM4NkmNdBYct1Y09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>\
+<br/>\
+<b>Печерні річки</b><br/>\
+Тепер річки можуть входити в печеру! Якщо річка входить в гору, то вона вийде з іншої сторони гори.',
   },
   {
     title: "Дід Мороз",
@@ -83,7 +86,9 @@ export const featuresData2 = [
     title: "Глибокі моби",
     text: "Тепер усі моби на рівні нижче 0 будуть спавнитися більш важкішими. Також тепер можуть заспавнитись й печерні пауки та візер скелети.<br/><br/>\
 У глибоких мобів більш стійкі до урону, мають більше здоровʼя, бʼють сильніше і помічають вас з більшої відстані.<br/><br/>\
-Також є зміни до поведінки окремих мобів, як от швидкіші павуки, та зменшений час підриву кріпера.",
+Також є зміни до поведінки окремих мобів, як от швидкіші павуки, та зменшений час підриву кріпера.<br/><br/>\
+<b>Окремий сундуковий лут для кожного гравця</b><br/>\
+Лут в данжових сундуках є окремим для кожного гравця, також це стосується елітр.",
   },
   {
     title: "Мандруючий Торгівельник",

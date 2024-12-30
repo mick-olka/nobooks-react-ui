@@ -13,7 +13,7 @@ const LayoutHeader: FC = () => {
             links={[
               { name: "Правила", href: "/rules" },
               { name: "Додатки", href: "/features" },
-              { name: "Карта", href: "/in-progress" },
+              { name: "Карта", href: "/map" },
             ]}
           />
           <Logo logoName={"no boobs"} />
