@@ -1,3 +1,4 @@
+import { MAP_URL } from "@/utils";
 import { PageTransitionWrapper, DefaultLoader } from "@/widgets";
 import { FC, Suspense } from "react";
 
@@ -6,11 +7,11 @@ const Map: FC = () => {
     <>
       <Suspense fallback={<DefaultLoader />}>
         <PageTransitionWrapper>
-          <div className="hero min-h-[calc(100vh-64px)] pt-12 bg-black">
+          <div className="hero min-h-[calc(100vh-64px)] bg-black">
             <iframe
               height="100%"
               id="iFrameExample"
-              src="https://sexy.wither.host/#world"
+              src={MAP_URL}
               title="iFrame Example"
               width="100%"
             ></iframe>
