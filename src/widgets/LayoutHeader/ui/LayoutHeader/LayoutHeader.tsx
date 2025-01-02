@@ -40,7 +40,7 @@ const LayoutHeader: FC = () => {
             </button>
             <button
               className="w-36 btn-ghost btn-circle btn p-2"
-              onClick={() => navigate("/features")}
+              onClick={() => navigate("/map")}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

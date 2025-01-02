@@ -3,6 +3,7 @@ import { PageTransitionWrapper, DefaultLoader } from "@/widgets";
 import { FC, Suspense } from "react";
 
 const Map: FC = () => {
+  // const [isError, setIsError] = useState(false);
   return (
     <>
       <Suspense fallback={<DefaultLoader />}>
@@ -14,6 +15,10 @@ const Map: FC = () => {
               src={MAP_URL}
               title="iFrame Example"
               width="100%"
+              // onError={() => {
+              //   alert("error");
+              //   setIsError(true);
+              // }}
             ></iframe>
           </div>
         </PageTransitionWrapper>
