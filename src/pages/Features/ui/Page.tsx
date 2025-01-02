@@ -6,7 +6,6 @@ import rehypeRaw from "rehype-raw";
 
 const FeaturesPage: FC = () => {
   const features = useFeaturesList();
-  console.log(features);
   return (
     <PageTransitionWrapper className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-12">
