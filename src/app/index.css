@@ -13,6 +13,11 @@
   border-radius: 6px;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   font-size: 85%;
+  text-wrap: wrap;
+}
+
+.markdown img {
+  border-radius: 10px 14px 10px 14px;
 }
 
 details > summary {

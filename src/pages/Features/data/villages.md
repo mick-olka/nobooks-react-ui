@@ -36,20 +36,21 @@
 
 - Зміна назви:
 
-  ```
-  /rg flag <назва регіону> bluemap-display <бажана назва>
-  ```
+```
+/rg flag <назва регіону> bluemap-display <бажана назва>
+```
 
 - Колір регіону:
 
-  ```
-  /rg flag <назва регіону> bluemap-color <колір у HEX>
-  ```
+```
+/rg flag <назва регіону> bluemap-color <колір у HEX>
+```
 
 - Колір контуру:
-  ```
-  /rg flag <назва регіону> bluemap-color-outline <колір у HEX>
-  ```
+
+```
+/rg flag <назва регіону> bluemap-color-outline <колір у HEX>
+```
 
 ## ❓ Допомога:
 
