@@ -1,14 +1,18 @@
 import { FC } from "react";
-import { featuresData2 } from "../../data";
 import { PageTransitionWrapper } from "@/widgets";
+import { useFeaturesList } from "../utils/useFeaturesList";
+import Markdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 const FeaturesPage: FC = () => {
+  const features = useFeaturesList();
+  console.log(features);
   return (
     <PageTransitionWrapper className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-12">
         no boobs Зимовий - Особливості серверу
       </h1>
-      {featuresData2.map((section, sectionIndex) => (
+      {features.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mb-8">
           <details className="cursor-pointer group">
             <summary className="text-2xl font-semibold mb-4 list-none">
@@ -27,13 +31,14 @@ const FeaturesPage: FC = () => {
                     d="M9 5l7 7-7 7"
                   ></path>
                 </svg>
-                {section.title}
+                <Markdown className="markdown">{section.title}</Markdown>
               </span>
             </summary>
-            <div
-              className="mt-2 pl-4 overflow-hidden transition-all duration-300 max-h-0 group-open:max-h-[1000px]"
-              dangerouslySetInnerHTML={{ __html: section.text }}
-            ></div>
+            <div className="mt-2 pl-4 overflow-hidden transition-all duration-300 max-h-0 group-open:max-h-[1600px]">
+              <Markdown className="markdown" rehypePlugins={[rehypeRaw]}>
+                {section.content}
+              </Markdown>
+            </div>
           </details>
         </div>
       ))}

@@ -11,6 +11,8 @@ export default defineConfig({
       "@widgets": path.resolve("src/widgets"),
       "@features": path.resolve("src/features"),
       "@entities": path.resolve("src/entities"),
+      "@pages": path.resolve("src/pages"),
     },
   },
+  assetsInclude: ["**/*.md"],
 });

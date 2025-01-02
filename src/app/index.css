@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.markdown > *:not(h1) {
+  all: revert;
+}
+
+.markdown code {
+  background-color: rgb(40, 44, 52);
+  color: rgb(171, 178, 191);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  font-size: 85%;
+}
+
 details > summary {
     list-style: none;
     display: flex;
