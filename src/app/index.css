@@ -18,6 +18,8 @@
 
 .markdown img {
   border-radius: 10px 14px 10px 14px;
+  max-width: 300px;
+  height: auto;
 }
 
 details > summary {
