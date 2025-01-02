@@ -1,9 +1,4 @@
-import { useEffect, useState } from "react";
-
 export const useMarkdownContent = () => {
-  //   const [content, setContent] = useState<string>("");
-  //   const [err, setErr] = useState<string | null>(null);
-
   const fetchContent = async (filePath: string) => {
     try {
       const module = await import(filePath);
@@ -14,10 +9,5 @@ export const useMarkdownContent = () => {
       console.error(error as string);
     }
   };
-  //   useEffect(() => {
-  //     };
-
-  // fetchContent();
-
   return { fetchContent };
 };
