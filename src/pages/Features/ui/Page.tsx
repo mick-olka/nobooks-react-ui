@@ -12,6 +12,7 @@ import villages from "../data/villages.md?raw";
 import bears from "../data/bears.md?raw";
 import deepMobs from "../data/deep-mobs.md?raw";
 import other from "../data/other.md?raw";
+import voicechat from "../data/voicechat.md?raw";
 
 const featuresData: string[] = [
   winter,
@@ -22,6 +23,7 @@ const featuresData: string[] = [
   villages,
   bears,
   deepMobs,
+  voicechat,
   other,
 ];
 

@@ -1,4 +1,10 @@
-import { PageTransitionWrapper, DefaultLoader, SuspenseImage } from "@/widgets";
+import { BEDROCK_IP, JAVA_IP } from "@/utils";
+import {
+  PageTransitionWrapper,
+  DefaultLoader,
+  SuspenseImage,
+  IpContainer,
+} from "@/widgets";
 import { FC, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -35,10 +41,16 @@ const Home: FC = () => {
                     0
                   </span>
                   <br />
-                  <span className="pl-1 font-bold">
-                    {/* mc.noboobies.pp.ua */}
-                    IP: скоро буде
-                  </span>
+                  <div className="flex flex-col gap-2 mt-2">
+                    <div className="flex items-center gap-2">
+                      <span className="w-16">Java:</span>
+                      <IpContainer ip={JAVA_IP} />
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="w-16">Bedrock:</span>
+                      <IpContainer ip={BEDROCK_IP} />
+                    </div>
+                  </div>
                 </div>
                 <button
                   className="btn-primary btn max-w-48 mx-auto"

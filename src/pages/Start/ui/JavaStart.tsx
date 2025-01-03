@@ -1,4 +1,5 @@
-import { PageTransitionWrapper } from "@/widgets";
+import { JAVA_IP } from "@/utils";
+import { IpContainer, PageTransitionWrapper } from "@/widgets";
 
 export const JavaStart = () => {
   return (
@@ -8,8 +9,8 @@ export const JavaStart = () => {
           <span className="flex items-center">Грати з Java</span>
         </div>
         <div className="mt-2 pl-4 overflow-hidden transition-all duration-300">
-          <p>
-            Айпі для джави: <br /> <u>y розробці</u>
+          <p className="w-fit">
+            Айпі для джави: <br /> <IpContainer ip={JAVA_IP} />
           </p>
           <p>Якщо айпі не працює - спробуйте айпі бедроку</p>
           <p>Проходка безплатна!</p>

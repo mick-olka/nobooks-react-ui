@@ -5,6 +5,7 @@ import {
   DefaultLoader,
   SuspenseImage,
   PageTransitionWrapper,
+  IpContainer,
 } from "./Elements";
 
 export {
@@ -16,4 +17,5 @@ export {
   DefaultLoader,
   SuspenseImage,
   PageTransitionWrapper,
+  IpContainer,
 };

@@ -1,4 +1,5 @@
-import { PageTransitionWrapper } from "@/widgets";
+import { BEDROCK_IP } from "@/utils";
+import { IpContainer, PageTransitionWrapper } from "@/widgets";
 
 export const BedrockStart = () => {
   return (
@@ -8,12 +9,11 @@ export const BedrockStart = () => {
           <span className="flex items-center">Грати з Bedrock</span>
         </div>
         <div className="mt-2 pl-4 overflow-hidden transition-all duration-300">
-          <p>
+          <p className="w-fit">
             Айпі для бедроку: <br />
-            {/* <u>bedrock.noboobies.pp.ua:19132</u> */}
-            <u>у розробці</u>
+            <IpContainer ip={BEDROCK_IP} />
           </p>
-          <p>(19132 - порт серверу)</p>
+          {/* <p>(19132 - порт серверу)</p> */}
           <p>Проходка безплатна!</p>
           <p>
             Для того щоб розпочати Вашу гру на сервері потрібно зробити декілька

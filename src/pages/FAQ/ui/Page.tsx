@@ -4,9 +4,9 @@ import { useFeaturesList } from "@/utils";
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import nether from "../data/nether.md?raw";
-import no_access from "../data/no_access.md?raw";
+import world from "../data/world.md?raw";
 import contact from "../data/contact.md?raw";
-const featuresData: string[] = [nether, no_access, contact];
+const featuresData: string[] = [nether, world, contact];
 
 const FAQPage: FC = () => {
   const features = useFeaturesList(featuresData);
