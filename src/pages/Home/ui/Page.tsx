@@ -32,22 +32,23 @@ const Home: FC = () => {
                   Український ванільний Майнкрафт сервер для Java та Bedrock
                   гравців
                 </p>
-                <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto">
-                  &nbsp;Поточний онлайн:
-                  <span
-                    className="px-1 font-bold"
-                    data-playercounter-ip="mc.noboobies.pp.ua"
-                  >
-                    0
-                  </span>
-                  <br />
-                  <div className="flex flex-col gap-2 mt-2">
-                    <div className="flex items-center gap-2">
-                      <span className="w-16">Java:</span>
+                <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto text-center">
+                  <div className="text-center">
+                    Поточний онлайн:
+                    <span
+                      className="px-1 font-bold"
+                      data-playercounter-ip="mc.noboobies.pp.ua"
+                    >
+                      0
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 mt-2">
+                    <div className="flex items-center justify-center gap-2">
+                      <span className="text-center">Java:</span>
                       <IpContainer ip={JAVA_IP} />
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="w-16">Bedrock:</span>
+                    <div className="flex items-center justify-center gap-2">
+                      <span className="text-center">Bedrock:</span>
                       <IpContainer ip={BEDROCK_IP} />
                     </div>
                   </div>

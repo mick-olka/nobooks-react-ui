@@ -12,6 +12,7 @@ export const JavaStart = () => {
           <p className="w-fit">
             Айпі для джави: <br /> <IpContainer ip={JAVA_IP} />
           </p>
+          <p className="font-bold">Версія: (1.21+)</p>
           <p>Якщо айпі не працює - спробуйте айпі бедроку</p>
           <p>Проходка безплатна!</p>
           <p>
