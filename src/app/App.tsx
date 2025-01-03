@@ -8,6 +8,7 @@ import {
   RulesPage,
   StartPlayingPage,
   MapPage,
+  FAQPage,
 } from "@/pages";
 
 const App: FC = () => {
@@ -20,6 +21,7 @@ const App: FC = () => {
           <Route path="features" element={<FeaturesPage />} />
           <Route path="start" element={<StartPlayingPage />} />
           <Route path="map" element={<MapPage />} />
+          <Route path="faq" element={<FAQPage />} />
           <Route path="in-progress" element={<NoMatch />} />
           <Route path="*" element={<Navigate to={"/"} />} />
         </Route>

@@ -1,8 +1,8 @@
 import { FC, useState } from "react";
 import { PageTransitionWrapper } from "@/widgets";
-import { StartButton } from "../StartButton";
-import { BedrockStart } from "../BedrockStart";
-import { JavaStart } from "../JavaStart";
+import { StartButton } from "./StartButton";
+import { BedrockStart } from "./BedrockStart";
+import { JavaStart } from "./JavaStart";
 
 type StartPageType = null | "bedrock" | "java";
 

@@ -1,3 +1,3 @@
-import StartPlayingPage from "./ui/Page/Page";
+import StartPlayingPage from "./ui/Page";
 
 export { StartPlayingPage };

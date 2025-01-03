@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { rulesData } from "../../data";
+import { rulesData } from "../data";
 import { PageTransitionWrapper } from "@/widgets";
 
 const RulesPage: FC = () => {

@@ -3,35 +3,16 @@ import { PageTransitionWrapper } from "@/widgets";
 import { useFeaturesList } from "@/utils";
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import winter from "../data/winter.md?raw";
-import snowWinds from "../data/snow-winds.md?raw";
-import leatherArmor from "../data/leather-armor.md?raw";
-import newProps from "../data/new-props.md?raw";
-import newEnchants from "../data/new-enchants.md?raw";
-import villages from "../data/villages.md?raw";
-import bears from "../data/bears.md?raw";
-import deepMobs from "../data/deep-mobs.md?raw";
-import other from "../data/other.md?raw";
+import nether from "../data/nether.md?raw";
+import no_access from "../data/no_access.md?raw";
+import contact from "../data/contact.md?raw";
+const featuresData: string[] = [nether, no_access, contact];
 
-const featuresData: string[] = [
-  winter,
-  snowWinds,
-  leatherArmor,
-  newProps,
-  newEnchants,
-  villages,
-  bears,
-  deepMobs,
-  other,
-];
-
-const FeaturesPage: FC = () => {
+const FAQPage: FC = () => {
   const features = useFeaturesList(featuresData);
   return (
     <PageTransitionWrapper className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-12">
-        no boobs Зимовий - Особливості серверу
-      </h1>
+      <h1 className="text-4xl font-bold mb-12">Часті питання</h1>
       {features.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mb-8">
           <details className="cursor-pointer group">
@@ -66,4 +47,4 @@ const FeaturesPage: FC = () => {
   );
 };
 
-export default FeaturesPage;
+export default FAQPage;

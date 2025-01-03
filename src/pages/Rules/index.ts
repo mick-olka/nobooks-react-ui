@@ -1,3 +1,3 @@
-import RulesPage from "./ui/Page/Page";
+import RulesPage from "./ui/Page";
 
 export { RulesPage };
