@@ -8,7 +8,7 @@ export const JavaStart = () => {
         <div className="text-2xl font-semibold mb-4 list-none">
           <span className="flex items-center">Грати з Java</span>
         </div>
-        <div className="mt-2 pl-4 overflow-hidden transition-all duration-300">
+        <div className="mt-2 pl-4 overflow-hidden transition-all duration-300 text-lg leading-relaxed">
           <p className="w-fit">
             Айпі для джави: <br /> <IpContainer ip={JAVA_IP} />
           </p>
