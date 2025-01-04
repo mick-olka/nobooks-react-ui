@@ -22,10 +22,10 @@ export const JavaStart = () => {
           <p>1. Зайти на майнкрафт сервер та отримати 4-х значний код</p>
           <p>
             {
-              "2. Відправте повідомлення /linkaccount <код> в канал #для-бота який знаходиться в нашому Discord"
+              "2. Відправте повідомлення /linkaccount <код> в канал #для-бота який знаходиться в нашому "
             }
             <u>
-              <a href="https://discord.com/invite/JKFY4tMhuA">дискорді</a>
+              <a href="https://discord.com/invite/JKFY4tMhuA">Discord</a>
             </u>
           </p>
           <p>3. Ви успішно зв'язали аккаунт і можете грати!</p>
