@@ -48,6 +48,10 @@ const Home: FC = () => {
                       <IpContainer ip={JAVA_IP} />
                     </div>
                     <div className="flex items-center justify-center gap-2">
+                      <span className="text-center">Запасний:</span>
+                      <IpContainer ip={"185.240.242.214:19511"} />
+                    </div>
+                    <div className="flex items-center justify-center gap-2">
                       <span className="text-center">Bedrock:</span>
                       <IpContainer ip={BEDROCK_IP} />
                     </div>
