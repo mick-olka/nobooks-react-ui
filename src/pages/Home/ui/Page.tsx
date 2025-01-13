@@ -7,6 +7,7 @@ import {
 } from "@/widgets";
 import { FC, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
+import { PlayerCounter } from "../components/PlayerCounter";
 
 const Home: FC = () => {
   const navigate = useNavigate();
@@ -38,23 +39,21 @@ const Home: FC = () => {
                 </p>
                 <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto text-center">
                   <div className="text-center">
-                    Поточний онлайн:
-                    <span
-                      className="px-1 font-bold"
-                      data-playercounter-ip="mc.noboobies.pp.ua"
-                    >
-                      0
-                    </span>
+                    <PlayerCounter
+                      ip="mc.noboobs.world:25565"
+                      format="Поточний онлайн: {online}"
+                      refreshRate={60000}
+                    />
                   </div>
                   <div className="flex flex-col items-center gap-2 mt-2">
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-center">Java:</span>
                       <IpContainer ip={JAVA_IP} />
                     </div>
-                    <div className="flex items-center justify-center gap-2">
+                    {/* <div className="flex items-center justify-center gap-2">
                       <span className="text-center">або:</span>
                       <IpContainer ip={"185.240.242.214:19511"} />
-                    </div>
+                    </div> */}
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-center">Bedrock:</span>
                       <IpContainer ip={BEDROCK_IP} />
