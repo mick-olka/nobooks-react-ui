@@ -42,7 +42,7 @@ const Home: FC = () => {
                     <PlayerCounter
                       ip="mc.noboobs.world:25565"
                       format="Поточний онлайн: {online}"
-                      refreshRate={60000}
+                      refreshRate={600}
                     />
                   </div>
                   <div className="flex flex-col items-center gap-2 mt-2">
