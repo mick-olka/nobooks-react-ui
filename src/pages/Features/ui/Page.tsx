@@ -14,6 +14,7 @@ import deepMobs from "../data/deep-mobs.md?raw";
 import other from "../data/other.md?raw";
 import voicechat from "../data/voicechat.md?raw";
 import beer from "../data/beer.md?raw";
+import showman from "../data/showman.md?raw";
 
 const featuresData: string[] = [
   winter,
@@ -23,6 +24,7 @@ const featuresData: string[] = [
   newEnchants,
   villages,
   bears,
+  showman,
   deepMobs,
   voicechat,
   beer,
