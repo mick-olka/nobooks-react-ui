@@ -12,7 +12,7 @@ const Layout: FC = () => {
         <Outlet />
       </main>
       <LayoutFooter />
-      <FixedAnnouncement message="бета версія" />
+      <FixedAnnouncement message="v1.21-1.21.4" />
       <FallingSnow />
     </div>
   );
