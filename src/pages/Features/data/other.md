@@ -22,4 +22,8 @@
 
 - ⛄️ Кращі сніжки: уповільнюють мобів в діаметрі 3 блоків, а також тепер ними можна тушити вогні (тільки в невеликому радіусі)
 
+- 🎣 Анти-афк риболововля: Зʼявився шанс витягнути ворожого моба за допомогою вудки
+
+- 🥷 Кража речей вудкою: Вудкою з приманкою можна красти речі з гравців та мобів
+
 <div style="max-width: 540px; margin: 0 auto;"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/DVzqb0qLwMg?si=iN3rJfgQzHoIeCDb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

@@ -8,7 +8,7 @@ import snowWinds from "../data/snow-winds.md?raw";
 import leatherArmor from "../data/leather-armor.md?raw";
 import newProps from "../data/new-props.md?raw";
 import newEnchants from "../data/new-enchants.md?raw";
-import villages from "../data/villages.md?raw";
+import regions from "../data/regions.md?raw";
 import bears from "../data/bears.md?raw";
 import deepMobs from "../data/deep-mobs.md?raw";
 import other from "../data/other.md?raw";
@@ -22,7 +22,7 @@ const featuresData: string[] = [
   leatherArmor,
   newProps,
   newEnchants,
-  villages,
+  regions,
   bears,
   showman,
   deepMobs,

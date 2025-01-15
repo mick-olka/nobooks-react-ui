@@ -8,6 +8,7 @@ import {
 import { FC, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
 import { PlayerCounter } from "../components/PlayerCounter";
+import { NewsPane } from "../components/news-page";
 
 const Home: FC = () => {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ const Home: FC = () => {
     <>
       <Suspense fallback={<DefaultLoader />}>
         <PageTransitionWrapper>
-          <div className="hero min-h-[calc(100vh-64px)] bg-base-200">
+          <div className="hero min-h-[calc(100vh-264px)] bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
               <SuspenseImage
                 src="/images/bg1.png"
@@ -29,13 +30,9 @@ const Home: FC = () => {
                 <h1 className="text-3xl font-bold sm:text-5xl">
                   Вітаємо на&nbsp;сервері no&nbsp;boobs
                 </h1>
-                {/* <p className="py-1 mx-auto">
+                <p className="py-1 mx-auto">
                   Український ванільний Майнкрафт сервер для Java та Bedrock
                   гравців
-                </p> */}
-                <p className="py-1 mx-auto">
-                  Якщо Java IP не працює, спробуйте Bedrock IP або запасний IP
-                  (так, навіть на Java версії)
                 </p>
                 <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto text-center">
                   <div className="text-center">
@@ -50,10 +47,6 @@ const Home: FC = () => {
                       <span className="text-center">Java:</span>
                       <IpContainer ip={JAVA_IP} />
                     </div>
-                    {/* <div className="flex items-center justify-center gap-2">
-                      <span className="text-center">або:</span>
-                      <IpContainer ip={"185.240.242.214:19511"} />
-                    </div> */}
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-center">Bedrock:</span>
                       <IpContainer ip={BEDROCK_IP} />
@@ -69,6 +62,7 @@ const Home: FC = () => {
               </div>
             </div>
           </div>
+          <NewsPane />
         </PageTransitionWrapper>
       </Suspense>
     </>
