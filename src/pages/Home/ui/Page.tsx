@@ -31,7 +31,7 @@ const Home: FC = () => {
                   Вітаємо на&nbsp;сервері no&nbsp;boobs
                 </h1>
                 <p className="py-1 mx-auto">
-                  Український ванільний Майнкрафт сервер для Java та Bedrock
+                  Український ванільний+ Майнкрафт сервер для Java та Bedrock
                   гравців
                 </p>
                 <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto text-center">
