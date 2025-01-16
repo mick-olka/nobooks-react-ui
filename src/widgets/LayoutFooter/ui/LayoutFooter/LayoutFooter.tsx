@@ -21,6 +21,9 @@ const LayoutFooter: FC = () => {
           <a className="link-hover link" href="https://t.me/froggyfroggs">
             froggyfroggs
           </a>
+          <a className="link-hover link" href="https://t.me/srenik_brek">
+            srenik
+          </a>
         </div>
         {/* <div>
           <span className="footer-title">Про нас</span>

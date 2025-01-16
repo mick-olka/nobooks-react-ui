@@ -11,9 +11,9 @@ const Map: FC = () => {
           <div className="hero min-h-[calc(100vh-64px)] bg-black">
             <iframe
               height="100%"
-              id="iFrameExample"
+              id="no-boobs-map"
               src={MAP_URL}
-              title="iFrame Example"
+              title="no boobs map"
               width="100%"
               // onError={() => {
               //   alert("error");
