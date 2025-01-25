@@ -17,15 +17,15 @@ import beer from "../data/beer.md?raw";
 import showman from "../data/showman.md?raw";
 
 const featuresData: string[] = [
-  winter,
-  snowWinds,
-  leatherArmor,
-  newProps,
-  newEnchants,
+  // winter,
+  // snowWinds,
+  // leatherArmor,
+  // newProps,
+  // newEnchants,
   regions,
-  bears,
-  showman,
-  deepMobs,
+  // bears,
+  // showman,
+  // deepMobs,
   voicechat,
   beer,
   other,
