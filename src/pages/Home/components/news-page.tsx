@@ -2,6 +2,7 @@ import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import news150125 from "../data/news/15-01-25.md?raw";
 import news130125 from "../data/news/13-01-25.md?raw";
+import news250125 from "../data/news/25-01-25.md?raw";
 
 const newsData = [
   {
@@ -11,6 +12,10 @@ const newsData = [
   {
     date: new Date("01/13/2025"),
     content: news130125,
+  },
+  {
+    date: new Date("01/25/2025"),
+    content: news250125,
   },
 ];
 

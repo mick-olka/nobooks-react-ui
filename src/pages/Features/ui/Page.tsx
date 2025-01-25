@@ -3,33 +3,13 @@ import { PageTransitionWrapper } from "@/widgets";
 import { useFeaturesList } from "@/utils";
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import winter from "../data/winter.md?raw";
-import snowWinds from "../data/snow-winds.md?raw";
-import leatherArmor from "../data/leather-armor.md?raw";
-import newProps from "../data/new-props.md?raw";
-import newEnchants from "../data/new-enchants.md?raw";
 import regions from "../data/regions.md?raw";
-import bears from "../data/bears.md?raw";
-import deepMobs from "../data/deep-mobs.md?raw";
 import other from "../data/other.md?raw";
 import voicechat from "../data/voicechat.md?raw";
 import beer from "../data/beer.md?raw";
-import showman from "../data/showman.md?raw";
+import socialCredits from "../data/social-credits.md?raw";
 
-const featuresData: string[] = [
-  // winter,
-  // snowWinds,
-  // leatherArmor,
-  // newProps,
-  // newEnchants,
-  regions,
-  // bears,
-  // showman,
-  // deepMobs,
-  voicechat,
-  beer,
-  other,
-];
+const featuresData: string[] = [socialCredits, regions, voicechat, beer, other];
 
 const FeaturesPage: FC = () => {
   const features = useFeaturesList(featuresData);
