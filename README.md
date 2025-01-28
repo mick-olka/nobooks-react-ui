@@ -1,3 +1,7 @@
+# No Books website
+
+Styled with TailwindCSS and DaisyUI.
+
 Usage:
 
 Install the dependencies:
