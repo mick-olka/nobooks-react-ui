@@ -1,3 +1,3 @@
-import Map from "./ui/Page";
+import MapPage from "./ui/Page";
 
-export { Map as MapPage };
+export { MapPage };

@@ -1,17 +1,17 @@
+import { FAQPage } from "./FAQ";
+import { FeaturesPage } from "./Features";
 import { Home } from "./Home";
+import { MapPage } from "./Map";
 import { NoMatch } from "./NoMatch";
 import { RulesPage } from "./Rules";
-import { FeaturesPage } from "./Features";
 import { StartPlayingPage } from "./Start";
-import { MapPage } from "./Map";
-import { FAQPage } from "./FAQ";
 
 export {
-  Home,
-  NoMatch,
-  RulesPage,
-  FeaturesPage,
-  StartPlayingPage,
-  MapPage,
-  FAQPage,
+	Home,
+	NoMatch,
+	RulesPage,
+	FeaturesPage,
+	StartPlayingPage,
+	MapPage,
+	FAQPage,
 };

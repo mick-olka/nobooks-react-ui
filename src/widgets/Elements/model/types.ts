@@ -1,3 +1,3 @@
 export interface FixedAnnouncementProps {
-  message: string;
+	message: string;
 }
