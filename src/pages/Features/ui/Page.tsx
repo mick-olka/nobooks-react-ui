@@ -8,8 +8,15 @@ import other from "../data/other.md?raw";
 import regions from "../data/regions.md?raw";
 import socialCredits from "../data/social-credits.md?raw";
 import voicechat from "../data/voicechat.md?raw";
-
-const featuresData: string[] = [socialCredits, regions, voicechat, beer, other];
+import armorStands from "../data/armor-stands.md?raw";
+const featuresData: string[] = [
+  socialCredits,
+  regions,
+  voicechat,
+  beer,
+  armorStands,
+  other,
+];
 
 const FeaturesPage: FC = () => {
   const features = useFeaturesList(featuresData);
