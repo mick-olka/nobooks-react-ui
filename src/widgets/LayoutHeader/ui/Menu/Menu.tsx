@@ -29,9 +29,15 @@ const Menu: FC<MenuType> = ({ links }: MenuType) => {
             />
           </svg>
         </div>
-        <ul className="dropdown-content menu menu-sm bg-base-100 rounded-box z-[50] w-52 p-2 shadow">
+        <ul className="dropdown-content menu bg-base-100 rounded-box z-[50] w-52 p-2 shadow">
           {links.map((link) => (
-            <li key={link.name} onClick={() => navigate(link.href)}>
+            <li
+              key={link.name}
+              onClick={() => {
+                alert("test");
+                navigate(link.href);
+              }}
+            >
               <Link to={link.href}>{link.name}</Link>
             </li>
           ))}
