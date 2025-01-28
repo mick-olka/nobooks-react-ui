@@ -18,9 +18,9 @@ const LayoutHeader: FC = () => {
             ]}
           />
           <Logo logoName={"no boobs"} />
-          <div className="navbar-end hidden sm:flex">
+          <div className="navbar-end hidden lg:flex">
             <button
-              className="w-36 btn-ghost btn-circle btn p-2"
+              className="w-32 btn-ghost btn-circle btn p-2"
               onClick={() => navigate("/rules")}
               type="button"
             >
@@ -42,7 +42,7 @@ const LayoutHeader: FC = () => {
               Правила
             </button>
             <button
-              className="w-36 btn-ghost btn-circle btn p-2"
+              className="w-32 btn-ghost btn-circle btn p-2"
               onClick={() => navigate("/map")}
               type="button"
             >
@@ -64,7 +64,7 @@ const LayoutHeader: FC = () => {
               Карта
             </button>
             <button
-              className="w-36 btn-ghost btn-circle btn p-2"
+              className="w-32 btn-ghost btn-circle btn p-2"
               onClick={() => navigate("/faq")}
               type="button"
             >
@@ -86,7 +86,7 @@ const LayoutHeader: FC = () => {
               ЧаПи
             </button>
             <button
-              className="w-36 btn-ghost btn-circle btn p-2 mr-6"
+              className="w-32 btn-ghost btn-circle btn p-2"
               onClick={() => navigate("/features")}
               type="button"
             >
