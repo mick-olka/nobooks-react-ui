@@ -1,18 +1,20 @@
-import type { FC } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useRef, type FC } from "react";
+import { Link } from "react-router-dom";
 import type { Menu as MenuType } from "../../model/types";
+import { useClickOutside } from "@/utils/hooks/use-click-outside";
 
 const Menu: FC<MenuType> = ({ links }: MenuType) => {
-  const navigate = useNavigate();
+  const dropdownRef = useRef<HTMLDetailsElement>(null);
+  const closeDropdown = () => {
+    if (dropdownRef.current) {
+      dropdownRef.current.open = false;
+    }
+  };
+  useClickOutside(dropdownRef, closeDropdown);
   return (
     <>
-      <div className="navbar-start dropdown">
-        <div
-          tabIndex={0}
-          // biome-ignore lint/a11y/useSemanticElements: <We can't use <button> here because Safari has a bug that prevents the button from being focused. <div role="button" tabindex="0"> is a workaround for this bug.>
-          role="button"
-          className="btn m-1 btn-ghost btn-circle"
-        >
+      <details className="navbar-start dropdown" ref={dropdownRef}>
+        <summary className="btn m-1 btn-ghost btn-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -28,21 +30,15 @@ const Menu: FC<MenuType> = ({ links }: MenuType) => {
               d="M4 6h16M4 12h16M4 18h7"
             />
           </svg>
-        </div>
-        <ul className="dropdown-content menu bg-base-100 rounded-box z-[50] w-52 p-2 shadow">
+        </summary>
+        <ul className="dropdown-content menu bg-base-100 rounded-box z-50 w-52 p-2 shadow">
           {links.map((link) => (
-            <li
-              key={link.name}
-              onClick={() => {
-                alert("test");
-                navigate(link.href);
-              }}
-            >
+            <li key={link.name} onClick={closeDropdown}>
               <Link to={link.href}>{link.name}</Link>
             </li>
           ))}
         </ul>
-      </div>
+      </details>
     </>
   );
 };
