@@ -5,9 +5,9 @@ import PageTransitionWrapper from "./ui/PageTransitionWrapper";
 import SuspenseImage from "./ui/SuspenseImage";
 
 export {
-	FixedAnnouncement,
-	DefaultLoader,
-	SuspenseImage,
-	PageTransitionWrapper,
-	IpContainer,
+  FixedAnnouncement,
+  DefaultLoader,
+  SuspenseImage,
+  PageTransitionWrapper,
+  IpContainer,
 };

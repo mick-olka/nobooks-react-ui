@@ -35,8 +35,3 @@ details > summary {
 details > summary::-webkit-details-marker {
 	display: none;
 }
-
-#bmc-wbtn {
-	right: auto;
-	left: 18px;
-}
