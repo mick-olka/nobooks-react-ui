@@ -75,7 +75,7 @@ const FeaturesPage: FC = () => {
                 <Markdown className="markdown">{section.title}</Markdown>
               </span>
             </summary>
-            <div className="mt-2 pl-4 overflow-hidden transition-all duration-300 max-h-0 group-open:max-h-[1600px]">
+            <div className="mt-2 pl-4 overflow-hidden transition-all duration-300 max-h-0 group-open:max-h-[2600px]">
               <Markdown className="markdown" rehypePlugins={[rehypeRaw]}>
                 {section.content}
               </Markdown>
