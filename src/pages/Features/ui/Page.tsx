@@ -9,12 +9,16 @@ import regions from "../data/regions.md?raw";
 import socialCredits from "../data/social-credits.md?raw";
 import voicechat from "../data/voicechat.md?raw";
 import armorStands from "../data/armor-stands.md?raw";
+import chat from "../data/chat.md?raw";
+import smoking from "../data/smoking.md?raw";
 const featuresData: string[] = [
   socialCredits,
   regions,
   voicechat,
+  smoking,
   beer,
   armorStands,
+  chat,
   other,
 ];
 
