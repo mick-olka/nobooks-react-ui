@@ -47,7 +47,7 @@ const Home: FC = () => {
                       <span className="text-center">Java:</span>
                       <IpContainer ip={JAVA_IP} />
                     </div>
-                    <div className="flex items-center justify-center gap-2">
+                    <div className="flex items-center justify-center gap-2 flex-wrap">
                       <span className="text-center">Bedrock:</span>
                       <IpContainer ip={BEDROCK_IP} />
                     </div>
