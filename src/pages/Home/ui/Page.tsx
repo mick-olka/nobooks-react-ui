@@ -9,6 +9,8 @@ import { type FC, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
 import { PlayerCounter } from "../components/PlayerCounter";
 import { NewsPane } from "../components/news-page";
+import { DiscordIcon } from "@/widgets/icons/discord";
+import { TelegramIcon } from "@/widgets/icons/telegram";
 
 const Home: FC = () => {
   const navigate = useNavigate();
@@ -24,7 +26,7 @@ const Home: FC = () => {
               <SuspenseImage
                 src="/images/bg1.png"
                 alt="noboobs"
-                className="max-w-sm rounded-lg shadow-2xl w-full"
+                className="max-w-md rounded-lg shadow-2xl w-full"
               />
               <div className="flex flex-col items-center sm:items-start">
                 <h1 className="text-3xl font-bold sm:text-5xl">
@@ -53,13 +55,45 @@ const Home: FC = () => {
                     </div>
                   </div>
                 </div>
-                <button
-                  type="button"
-                  className="btn-primary btn max-w-48 mx-auto"
-                  onClick={onStartClick}
-                >
-                  Почати грати
-                </button>
+                <div className="flex justify-center gap-4 mx-auto mt-4 flex-wrap">
+                  <button
+                    type="button"
+                    className="btn btn-secondary btn w-48"
+                    onClick={onStartClick}
+                  >
+                    Почати грати
+                  </button>
+                  <div className="flex justify-center gap-4 flex-wrap">
+                    <a
+                      className="link-hover link"
+                      href="https://discord.gg/WrzV6BvEQD"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button
+                        type="button"
+                        className="btn btn-outline btn-primary btn w-48"
+                      >
+                        Ми в Discord
+                        <DiscordIcon />
+                      </button>
+                    </a>
+                    <a
+                      className="link-hover link"
+                      href="https://t.me/noboobs_ua"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button
+                        type="button"
+                        className="btn btn-outline btn-accent btn w-48"
+                      >
+                        Ми в Telegram
+                        <TelegramIcon />
+                      </button>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
