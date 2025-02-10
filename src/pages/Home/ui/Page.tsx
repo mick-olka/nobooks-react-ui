@@ -39,10 +39,11 @@ const Home: FC = () => {
                 <div className="p-2 my-2 rounded-lg bg-gray-800 mx-auto text-center">
                   <div className="text-center">
                     <PlayerCounter
-                      ip="mc.noboobs.world:25565"
+                      ip={JAVA_IP}
                       format="Поточний онлайн: {online}"
                       refreshRate={600}
                     />
+                    <b>Ведуться технічні роботи - сервер скоро повернеться</b>
                   </div>
                   <div className="flex flex-col items-center gap-2 mt-2">
                     <div className="flex items-center justify-center gap-2">
