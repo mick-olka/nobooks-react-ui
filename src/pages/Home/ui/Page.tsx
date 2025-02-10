@@ -43,7 +43,7 @@ const Home: FC = () => {
                       format="Поточний онлайн: {online}"
                       refreshRate={600}
                     />
-                    <b>Ведуться технічні роботи - сервер скоро повернеться</b>
+                    {/* <b>Ведуться технічні роботи - сервер скоро повернеться</b> */}
                   </div>
                   <div className="flex flex-col items-center gap-2 mt-2">
                     <div className="flex items-center justify-center gap-2">
