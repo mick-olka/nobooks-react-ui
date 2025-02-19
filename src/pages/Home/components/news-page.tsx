@@ -6,6 +6,7 @@ import news250125 from "../data/news/25-01-25.md?raw";
 import news040225 from "../data/news/04-02-25.md?raw";
 import news110225 from "../data/news/11-02-25.md?raw";
 import news180225 from "../data/news/18-02-25.md?raw";
+import news190225 from "../data/news/19-02-25.md?raw";
 const newsData = [
   {
     date: new Date("02/04/2025"),
@@ -30,6 +31,10 @@ const newsData = [
   {
     date: new Date("02/18/2025"),
     content: news180225,
+  },
+  {
+    date: new Date("02/19/2025"),
+    content: news190225,
   },
 ];
 
